@@ -4,6 +4,8 @@
 
 My entry for make.fun's tiny-chess-01 bounty. main.py is a chess engine written in
 Python that fits in at most 4096 bytes and uses no third-party code, only the standard library.
+In the kit's house-gauntlet practice trial it measures an Elo of about 1,100 (an earlier build
+measured 1,191).
 
 It talks to the bounty environment over JSON/HTTP: it asks for a game, plays the move its own
 search picks, and reports back until the game is done. Point it at the env and run it:
